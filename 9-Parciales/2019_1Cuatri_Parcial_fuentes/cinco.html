@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso de Ingreso UTN FRA</title>
+
+		<!--/estilos-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="animacion.css">
+		<!--final de /estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="cinco.js"></script>
+        <!--Final de Lógica-Programación-->
+
+
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<div class="animated bounceIn header">
+			<a class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i> Men&uacute; Parcial 2019</a>
+		</div>
+
+		<div class="row">
+			<div class="col-3 col-s-3 menu"></div>
+
+			<div class="col-6 col-s-9">
+				<form id="FormIngreso" class="animated bounceInLeft">
+					<h1>Ingrese datos</h1>
+					<label><br>Continente</br></label>
+					<select id="Continente">
+						<option>Am&eacute;rica</option>
+						<option>&Aacute;frica</option>
+						<option>Asia</option>
+						<option>Europa</option>
+						<option>Ocean&iacute;a</option>
+					</select>
+					<label><br>Cantidad de d&iacute;as</br></label>
+					<input type="text" placeholder="Cantidad de días" id="Cantidad">
+					<label><br>Pago</br></label>
+					<select id="Pago">
+						<option>Efectivo</option>
+						<option>D&eacute;bito</option>
+						<option>MercadoPago</option>
+						<option>Otro Medio</option>
+					</select>
+					<label>Precio Final</label>
+					<input type="text" readonly placeholder="Precio Final" id="elPrecioFinal">
+					<a class="MiBotonUTNnav" onclick="mostrar()" >Mostrar informaci&oacute;n</a>
+				</form>
+			</div>
+
+			<div class="col-3 col-s-12">
+				<div class="aside animated bounceInUp">
+					<h2>Enunciado:</h2>
+					<h3>
+						Bienvenidos (SOLO SWITCH)
+						</br>Una empresa de viajes le solicita ingresar qu&eacute; continente le gustar&iacute;a visitar
+						</br>y la cantidad de d&iacute;as. La oferta dice que por d&iacute;a se cobra $100, que se puede pagar de todas las maneras
+						</br>Si es Am&eacute;rica, tiene un 50% de descuento, y si adem&aacute;s paga por D&eacute;bito, se le agrega un 10% m&aacute;s de descuento
+						</br>Si es &Aacute;frica, tiene un 60% de descuento, y si adem&aacute;s paga por MercadoPago o Efectivo, se le agrega un 15% m&aacute;s de descuento
+						</br>Si es Europa, tiene un 20% de descuento, y si adem&aacute;s paga por D&eacute;bito, se le agrega un 15%, por MercadoPago un 10% y cualquier otro medio 5%
+						</br>Cualquier otro continente tiene un recargo del 20%
+					</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<a class="MiBotonUTNnav" onclick="location.href='../index.html'" ><i class="fas fa-bars"></i> Men&uacute; Parciales</a>
+			<a class="MiBotonUTNnav" onclick="location.href='../../index.html'" ><i class="fas fa-bars"></i> Men&uacute; Principal</a>
+			</br></br></br>
+			<p>Curso de Ingreso UTN FRA</p>
+		</div>
+	</body>
+</html>

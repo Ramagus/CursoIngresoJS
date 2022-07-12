@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso de Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="14-jsPalindromo.js"></script>
+        <!--Final de Lógica-Programación-->
+
+		
+		<link rel="icon" type="image/x-icon" href="../favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<div class="animated bounceIn header">
+			<center><h5>TP <strong> Ejercicio 14</strong> </h5></center> 
+			<a class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i> Men&uacute; TPs</a> 
+		</div>
+
+		<div class="row">
+			<div class="col-3 col-s-3 menu"></div>
+
+			<div class="col-6 col-s-9">
+				<form class="animated bounceInLeft FormIngreso">
+					<h1>Qu&eacute; es un pal&iacute;ndromo</h1>
+					<label><br>Frase o palabra</br></label>
+					<input type="text" placeholder="Ingrese frase o palabra" id="txtIdPalabra">
+					<label><br>Palabra invertida</br></label>
+					<input type="text" placeholder="Palabra invertida" id="txtIdPalabraInvertida">
+					<br>
+					<a class="MiBotonUTNnav" onclick="verificarPalindromo()" >Ingrese frase o palabra</a>
+					<br><br>
+				</form>	
+			</div>
+
+			<div class="col-3 col-s-12">
+				<div class="aside animated bounceInUp">
+					<h2>Enunciado:</h2>
+					<h3>
+						Un pal&iacute;ndromo (del griego palin dromein, volver a ir atr&aacute;s)
+						<br>Es una palabra, n&uacute;mero o frase que se lee igual adelante que atr&aacute;s.
+						<br>Si se trata de un numeral, usualmente en notaci&oacute;n indoar&aacute;biga, se llama capic&uacute;a. 
+
+						<br>Debemos poder identificar las frases, n&uacute;meros o palabras que son pal&iacute;ndromos.
+
+						<br>1°: De la cadena original, buscamos los espacios y los eliminamos.
+						<br>2°: La palabra original, le invertimos el orden de las letras.
+						<br>3°: Comparamos las dos cadenas y si son iguales, es un pal&iacute;ndromo.
+					</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<a class="MiBotonUTNnav" onclick="location.href='../index.html'" ><i class="fas fa-bars"></i> Men&uacute; Principal</a>
+			</br></br></br>
+			<p>Curso de Ingreso UTN FRA</p>
+		</div>
+	</body>
+</html>

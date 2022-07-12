@@ -1,0 +1,55 @@
+function sumar()
+{	
+	let num1;
+	let num2;
+	let resultado;
+	
+	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
+	num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+
+	resultado = num1 + num2;
+	
+	alert(`La suma es ${resultado}`);	
+}
+
+function restar()
+{
+	let num1;
+	let num2;
+	let resultado;
+	
+	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
+	num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+
+	resultado = num1 - num2;
+	
+	alert(`La resta es ${resultado}`);
+}
+
+function multiplicar()
+{ 
+	let num1;
+	let num2;
+	let resultado;
+	
+	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
+	num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+
+	resultado = num1 * num2;
+	
+	alert(`El producto es ${resultado}`);
+}
+
+function dividir()
+{
+	let num1;
+	let num2;
+	let resultado;
+	
+	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
+	num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+
+	resultado = num1 / num2;
+	
+	alert(`El cociente es ${resultado}`);
+}

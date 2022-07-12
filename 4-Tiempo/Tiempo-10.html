@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso de Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--Final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsTiempo-10.js"></script>
+		<!--Final de Lógica-Programación-->
+
+
+		<link rel="icon" type="image/x-icon" href="../favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body onload="inicio()">
+		<div class="animated bounceIn header">
+			<center><h5> TIEMPO <strong> Ejercicio 10 </strong> </h5></center>
+			<a class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i> Men&uacute; Ejercicios</a>
+		</div>
+
+		<div class="row">
+			<div class="col-3 col-s-3 menu"></div>
+
+			<div class="col-6 col-s-9">
+				<form class="animated bounceInLeft FormIngreso">
+					<h1>Contar el Tiempo</h1>
+					</br>
+					<button id="secreto" style="visibility:hidden;" class="MiBotonUTNnav" onclick="contarMilisegundos()"> El oculto</button>
+				</form>
+			</div>
+
+			<div class="col-3 col-s-12">
+				<div class="aside animated bounceInUp">
+					<h2>Enunciado:</h2>
+					<h3>
+						Continuando con el ejercicio anterior,
+						</br>sum&aacute;ndole los siguientes mensajes:
+						</br></br>Si tard&oacute; entre 0 y 500 milisegundos:
+						</br>"Usted es Flash"
+						</br>Si tard&oacute; entre 501 y 1000 milisegundos:
+						</br>"Bien ah&iacute;, segu&iacute; practicando"
+						</br>Si tard&oacute; entre 1001 y 3000 milisegundos:
+						</br>"Tenemos los deditos duros???"
+						</br>Si tard&oacute; m&aacute;s de 3000 milisegundos:
+						</br>"Te quedaste dormido???"
+					</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<a class="MiBotonUTNnav" onclick="location.href='../index.html'" ><i class="fas fa-bars"></i> Men&uacute; Principal</a>
+			</br></br></br>
+			<p>Curso de Ingreso UTN FRA</p>
+		</div>
+	</body>
+</html>
