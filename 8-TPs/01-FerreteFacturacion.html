@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso de Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="01-jsFerreteFacturacion.js"></script>
+		<!--Final de Lógica-Programación-->
+		
+		
+		<link rel="icon" type="image/x-icon" href="../favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<div class="animated bounceIn header">
+			<center><h5> TP <strong> Ejercicio 1 </strong> </h5></center> 
+			<a class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i> Men&uacute; TPs</a>
+		</div>
+
+		<div class="row">
+			<div class="col-3 col-s-3 menu"></div>
+
+			<div class="col-6 col-s-9">
+				<form class="animated bounceInLeft FormIngreso">
+					<h1>Ferrete Facturaci&oacute;n</h1>
+					<label><br>Precio 1</br></label>
+					<input type="text" placeholder="Ingrese Precio 1" id="txtIdPrecioUno">
+					<label><br>Precio 2</br></label>
+					<input type="text" placeholder="Ingrese Precio 2" id="txtIdPrecioDos">
+					<label><br>Precio 3</br></label>
+					<input type="text" placeholder="Ingrese Precio 3" id="txtIdPrecioTres">
+					</br>
+					<a class="MiBotonUTNnav" onclick="sumar()"> Sumar</a>
+					<a class="MiBotonUTNnav" onclick="promedio()"> Promedio</a>
+					<a class="MiBotonUTNnav" onclick="precioFinal()"> Precio Final</a>
+				</form>
+			</div>
+
+			<div class="col-3 col-s-12">
+				<div class="aside animated bounceInUp">
+					<h2>Enunciado:</h2>
+					<h3>
+						1. Para el departamento de Facturaci&oacute;n:
+						</br></br>A. Ingresar tres precios de productos y mostrar
+						</br>la suma de los mismos
+						</br></br>B. Ingresar tres precios de productos y mostrar
+						</br>el promedio de los mismos
+						</br></br>C. Ingresar tres precios de productos, sumarlos
+						</br>y mostrar precio final (m&aacute;s IVA 21%)
+					</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<a class="MiBotonUTNnav" onclick="location.href='../index.html'" ><i class="fas fa-bars"></i> Men&uacute; Principal</a>
+			</br></br></br>	
+			<p>Curso de Ingreso UTN FRA</p>
+		</div>
+	</body>
+</html>

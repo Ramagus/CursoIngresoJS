@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso de Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--Final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsInstruccionSwitch-09.js"></script>
+		<!--Final de Lógica-Programación-->
+		
+
+		<link rel="icon" type="image/x-icon" href="../favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<div class="animated bounceIn header">
+			<center><h5> SWITCH <strong> Ejercicio 9 </strong> </h5></center>
+			<a class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i> Men&uacute; Ejercicios</a>
+		</div>
+
+		<div class="row">
+			<div class="col-3 col-s-3 menu"></div>
+
+			<div class="col-6 col-s-9">
+				<form class="animated bounceInLeft FormIngreso">
+					<h1>Elija estaci&oacute;n del a&ntilde;o</h1>
+					</br>
+					<select id="txtIdEstacion">
+						<option value="Invierno"> Invierno</option>
+						<option value="Verano"> Verano</option>
+						<option value="Oto&ntilde;o"> Oto&ntilde;o</option>
+						<option value="Primavera"> Primavera</option>
+					</select>
+					<h1>Elija un destino</h1>
+					</br>
+					<select id="txtIdDestino">
+						<option value="Bariloche"> Bariloche</option>
+						<option value="Cataratas"> Cataratas</option>
+						<option value="Mar del Plata"> Mar del Plata</option>
+						<option value="C&oacute;rdoba"> C&oacute;rdoba</option>
+					</select>
+					<a class="MiBotonUTNnav" onclick="mostrar()"> Mostrar informaci&oacute;n</a>	
+				</form>
+			</div>
+
+			<div class="col-3 col-s-12">
+				<div class="aside animated bounceInUp">
+					<h2>Enunciado:</h2>	
+					<h3>
+						Una agencia de viajes debe sacar
+						</br>las tarifas de los viajes
+						</br>Se cobra $15.000 por cada estad&iacute;a como base
+						</br>Se pide el ingreso de una estaci&oacute;n del a&ntilde;o y localidad
+						</br>para vacacionar y para poder calcular el precio final
+						</br></br>En Invierno:
+								</br>Bariloche tiene un aumento del 20%
+								</br>Cataratas y C&oacute;rdoba tienen un descuento del 10%
+								</br>Mar del Plata tiene un descuento del 20%
+						</br></br>En Verano:
+								</br>Bariloche tiene un descuento del 20%
+								</br>Cataratas y C&oacute;rdoba tienen un aumento del 10%
+								</br>Mar del Plata tiene un aumento del 20%
+						</br></br>En Oto&ntilde;o y Primavera:
+								</br>Bariloche tiene un aumento del 10%
+								</br>Cataratas tiene un aumento del 10%
+								</br>Mar del Plata tiene un aumento del 10%
+								</br>C&oacute;rdoba tiene el precio sin descuento
+					</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<a class="MiBotonUTNnav" onclick="location.href='../index.html'" ><i class="fas fa-bars"></i> Men&uacute; Principal</a>
+			</br></br></br>
+			<p>Curso de Ingreso UTN FRA</p>
+		</div>
+	</body>
+</html>
